@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ingredients: 'Sábila, Vitamina E, Agua mineral',
             benefits: ['Protección UV', 'Hidratación profunda', 'Brillo natural', 'No engrasa', 'Aroma fresco'],
             price: 25000,
-            image: 'file:///C:/Users/preci/Downloads/Brisa%20de%20Vida.png',
+            image: 'https://raw.githubusercontent.com/Gon-p/Galery/refs/heads/main/IMG-20251018-WA0114.jpg',
             category: 'Protección',
             rating: 4.9,
             reviews: 156,
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ingredients: 'Agua de rosas, Lavanda, Aloe vera',
             benefits: ['Control frizz', 'Hidratación intensa', 'Aroma floral', 'Reduce caspa', 'Suaviza puntas'],
             price: 25000,
-            image: 'file:///C:/Users/preci/Downloads/L%C3%A1grima%20de%20Rosa.png',
+            image: 'https://raw.githubusercontent.com/Gon-p/Galery/refs/heads/main/IMG-20251018-WA0115.jpg',
             category: 'Hidratación',
             rating: 4.7,
             reviews: 98,
@@ -451,4 +451,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Iniciar la aplicación
     init();
+
 });
