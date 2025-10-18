@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brisa Tropical | Perfumes Capilares Naturales</title>
+    <link rel="websire icon" type="png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-image">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <h1>Brisa Tropical</h1>
+            </div>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="cart-icon">
+                <button id="cartBtn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <h2>Perfumes capilares naturales</h2>
+            <p>Cuidamos tu cabello con ingredientes 100% naturales</p>
+            <a href="#productos" class="btn">Ver productos</a>
+        </div>
+    </section>
+
+    <section id="productos" class="products">
+        <div class="container">
+            <h2>Nuestros Productos</h2>
+            <div class="products-grid" id="productsGrid">
+                <!-- Los productos se cargan con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                <p><strong>WhatsApp:</strong> 304 604 2928</p>
+                <p><strong>Instagram:</strong> @brisa_tropical001</p>
+                <p><strong>Email:</strong> tropicalb65@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Brisa Tropical - Perfumes capilares naturales</p>
+        </div>
+    </footer>
+
+    <!-- Modal del Carrito -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Tu Carrito</h2>
+                <button class="close-btn" id="closeCartBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="cartItems">
+                <!-- Los items del carrito se cargan aquí -->
+            </div>
+            <div class="modal-footer">
+                <div class="cart-summary" id="cartSummary">
+                    <!-- El resumen del carrito se carga aquí -->
+                </div>
+                <button class="btn-checkout" id="checkoutBtn">
+                    Proceder al Pago
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Detalles del Producto -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="productModalTitle">Detalles del Producto</h2>
+                <button class="close-btn" id="closeProductBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="productDetails">
+                <!-- Los detalles del producto se cargan aquí -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
